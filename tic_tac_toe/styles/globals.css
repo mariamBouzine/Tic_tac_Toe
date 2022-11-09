@@ -14,7 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+.square.highlight{
+  background-color: #EAE3D2;
+  color: #607EAA;
+}
+.modal{
+  transform:translate(-50%,-50%) scale(0);
+  transition: transform 0.2s;
+}
+.modal.show{
+  transform:translate(-50%,-50%) scale(1)
 
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
